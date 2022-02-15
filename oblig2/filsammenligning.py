@@ -29,6 +29,8 @@ def main():
          f"{words_in_file_1 ^ words_in_file_2}"
         )
 
+    file_1.close()
+    file_2.close()
 
 def get_file(file_name="file"):
     file = input(f"Enter {file_name}: ")
