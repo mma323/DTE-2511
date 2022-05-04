@@ -46,7 +46,6 @@ class GUI:
         self.correct_answer_label_prefix.grid(row=3, column=0, sticky=tk.W)
         self.correct_answer_label.grid(row=3, column=2)
 
-
         combobox_values = [
             "Select operator...", 
             "AND", 
